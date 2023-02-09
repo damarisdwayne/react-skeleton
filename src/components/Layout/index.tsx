@@ -15,7 +15,7 @@ const Layout: React.FC = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 4000);
   }, []);
 
   return (
